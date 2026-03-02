@@ -1,5 +1,5 @@
 // change this to reference the dataset you chose to work with.
-import { bikeShare as chartData } from "./data/bikeShare.js";
+import { gameSales as chartData } from "./data/gameSales.js";
 
 // --- DOM helpers ---
 const monthSelect = document.getElementById("monthSelect");

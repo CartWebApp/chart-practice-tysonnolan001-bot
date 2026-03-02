@@ -24,11 +24,11 @@
 
       <label class="label">Chart</label>
       <select id="chartType">
-        <option value="bar" selected>Bar (compare neighborhoods)</option>
-        <option value="line">Line (trend over time)</option>
-        <option value="scatter">Scatter (relationship)</option>
-        <option value="doughnut">Doughnut (parts of whole)</option>
-        <option value="radar">Radar (multi-metric compare)</option>
+        <option value="bar" selected>Bar (sales by platform / genre)</option>
+        <option value="line">Line (sales over years)</option>
+        <option value="scatter">Scatter (review scores vs sales)</option>
+        <option value="doughnut">Doughnut (region share)</option>
+        <option value="radar">Radar (compare publishers across networks)</option>
       </select>
 
       <label class="label">Month</label>
@@ -39,12 +39,16 @@
 
       <label class="label">Metric</label>
       <select id="metricSelect">
-        <option value="trips" selected>Trips</option>
-        <option value="revenueUSD">Revenue (USD)</option>
-        <option value="avgDurationMin">Avg Duration (min)</option>
-        <option value="incidents">Incidents</option>
-        <option value="tempC">Temperature (C)</option>
-        <option value="precipMM">Precipitation (mm)</option>
+        <option value="trips" selected>Racing</option>
+        <option value="revenueUSD">RPG</option>
+        <option value="avgDurationMin">Sandbox</option>
+        <option value="incidents">Shooter</option>
+        <option value="tempC">Sim</option>
+        <option value="precipMM">Strategy</option>
+        <option value="MOBA">MOBA</option>
+        <option value="action">Action</option>
+        <option value="fighting">Fighting</option>
+        <option value="casual">Casual</option>
       </select>
 
       <button id="renderBtn">Render Chart</button>
